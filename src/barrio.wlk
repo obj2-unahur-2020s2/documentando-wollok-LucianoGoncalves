@@ -1,6 +1,6 @@
 //No devuelve nada, es una clase de tipo barrio
 class Barrio {
-	//lista de elementos.
+	//una colección de elementos.
 	const property elementos = []
 	
 	//no devuelve nada
