@@ -14,7 +14,7 @@ class Hogar {
 	method esBueno() = nivelMugre <= confort / 2
 	
 	//No devuelve nada
-	method fueAtacado(plaga) {
+	method fueAtacado(plaga) { //plaga es un objeto (puede ser PlagaCucaracha, PlagaMosquito, PlagaPulgas o PlagaGarrapatas)
 		nivelMugre += plaga.nivelDanio()
 	}
 
@@ -25,7 +25,7 @@ class Mascota {
 	var property nivelSalud
 
 	//No devuelve nada
-	method fueAtacado(plaga) {
+	method fueAtacado(plaga) { //plaga es un objeto (puede ser PlagaCucaracha, PlagaMosquito, PlagaPulgas o PlagaGarrapatas)
 		if (plaga.transmiteEnfermedad()) {
 			nivelSalud -= plaga.nivelDanio()
 		}
@@ -46,7 +46,7 @@ class Huerta {
 	}
 
 	//No devuelve nada
-	method fueAtacado(plaga) {
+	method fueAtacado(plaga) { //plaga es un objeto (puede ser PlagaCucaracha, PlagaMosquito, PlagaPulgas o PlagaGarrapatas)
 		capacidadProduccion -= plaga.nivelDanio() * 0.1
 		if (plaga.transmiteEnfermedad()) {
 			capacidadProduccion -= 10
