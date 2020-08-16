@@ -4,12 +4,12 @@ class Barrio {
 	const property elementos = []
 	
 	//no devuelve nada
-	method agregarElemento(elemento) {
+	method agregarElemento(elemento) { //elemento es un objeto (puede ser hogar, marscota o huerta)
 		elementos.add(elemento)
 	}
 	
 	//no devuelve nada
-	method sacarElemento(elemento) {
+	method sacarElemento(elemento) { //elemento es un objeto (puede ser hogar, marscota o huerta)
 		elementos.remove(elemento)
 	}
 	
