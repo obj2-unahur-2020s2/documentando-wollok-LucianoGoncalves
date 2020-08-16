@@ -13,7 +13,7 @@ class Hogar {
 	//Tipo: booleano. Devuelve un booleano
 	method esBueno() = nivelMugre <= confort / 2
 	
-	//No hace nada
+	//No devuelve nada
 	method fueAtacado(plaga) {
 		nivelMugre += plaga.nivelDanio()
 	}
@@ -24,7 +24,7 @@ class Mascota {
 	//Propiedad. Tipo de dato número (es un getters y setters)
 	var property nivelSalud
 
-	//No hace nada
+	//No devuelve nada
 	method fueAtacado(plaga) {
 		if (plaga.transmiteEnfermedad()) {
 			nivelSalud -= plaga.nivelDanio()
@@ -45,7 +45,7 @@ class Huerta {
 		return capacidadProduccion > INTA.produccionMinima()
 	}
 
-//No hace nada
+	//No devuelve nada
 	method fueAtacado(plaga) {
 		capacidadProduccion -= plaga.nivelDanio() * 0.1
 		if (plaga.transmiteEnfermedad()) {
