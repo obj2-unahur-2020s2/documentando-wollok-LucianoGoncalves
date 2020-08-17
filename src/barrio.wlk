@@ -25,7 +25,4 @@ class Barrio {
 	method esCopado() {
 		return self.elementosBuenos() > self.elementosMalos()
 	}
-
 }
-
-![DER barrio](https://user-images.githubusercontent.com/64597368/90352938-310e9700-e01b-11ea-9e4f-cd85f457ea9d.png)
