@@ -8,7 +8,7 @@ class Plaga {
 	method transmiteEnfermedad() = poblacion >= 10
 	
 	//No devuelve nada
-	method atacar(elemento){
+	method atacar(elemento){ //elemento es un objeto (puede ser hogar, marscota o huerta)
 		poblacion *= 1.1
 		elemento.fueAtacado(self)
 	}
@@ -31,7 +31,7 @@ class PlagaCucaracha inherits Plaga {
 	}
 
 	//No devuelve nada
-	override method atacar(elemento) {
+	override method atacar(elemento) { //elemento es un objeto (puede ser hogar, marscota o huerta)
 		super(elemento)
 		pesoPromedio += 2
 	}
@@ -65,7 +65,7 @@ class PlagaPulgas inherits Plaga {
 class PlagaGarrapatas inherits PlagaPulgas {
 	
 	//No devuelve nada
-	override method atacar(elemento) {
+	override method atacar(elemento) { //elemento es un objeto (puede ser hogar, marscota o huerta)
 		poblacion *= 1.2
 		elemento.fueAtado(self)
 	}
