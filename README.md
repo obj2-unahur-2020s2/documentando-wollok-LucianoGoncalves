@@ -23,3 +23,12 @@ Y de yapa, dos ejemplos de cómo incluir una imagen en Markdown (vean este archi
 ![Directamente desde un link](http://www.plantuml.com/plantuml/png/JSqn2W9138NXFgT8gLUmMb5hlS9Z9gu3cGmaMH74kxl25lR_zzuK2S-bAnL51DyKC_XDpEcmw2tbOdVnBXLrjp_mKUT17zhoqrBWA0y4ool5wl-2jQVe6TR63rxJnuQdDLmllm00)
 
 ![Desde un archivo local](./images/ejemplo-uml.png)
+
+
+![DER barrio](https://user-images.githubusercontent.com/64597368/90352938-310e9700-e01b-11ea-9e4f-cd85f457ea9d.png)
+
+![DER plaga](https://user-images.githubusercontent.com/64597368/90352943-34a21e00-e01b-11ea-93be-72c409d7b4b8.png)
+
+![DER elementos](https://user-images.githubusercontent.com/64597368/90352947-366be180-e01b-11ea-87c1-02649d35502d.png)
+
+![Der completo](https://user-images.githubusercontent.com/64597368/90352948-3835a500-e01b-11ea-8a0a-9c22fbef28a5.png)
